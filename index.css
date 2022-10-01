@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  background-color: #b0c7dd;
+  text-align: center;
+  font-family: 'Poor Story', cursive;
+}
+
+#hong-img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.gift-section {
+  padding-top: 15px;
+  padding-bottom: 30px;
+  background-color: #d6e6f5;
+}
+
+.gift-img {
+  width: 400px;
+  height: 250px;
+  margin: 0 auto;
+  background-image: url("images/gift.jpg");
+  background-size: cover;
+}
+
+.gift-section:nth-child(2n) {
+  background-color: #b0c7dd;
+}
+
+#footer {
+  padding-top: 15px;
+  padding-bottom: 30px;
+  background-color: #86a4bf;
+}
+
+#footer img {
+  width: 450px;
+}
+
+#gift-img-high:hover {
+  background-image: url("https://media.giphy.com/media/u1kThWInmtcDsQ6fGm/giphy.gif");
+}
+
+#gift-img-sad:hover {
+  background-image: url("https://media.giphy.com/media/l3vRnKI0Amq6BHSik/giphy.gif");
+}
+
+#gift-img-greet:hover {
+  background-image: url("https://media.giphy.com/media/TXFWfSZ1EP7iRj9tvI/giphy.gif");
+}
+
+#gift-img-rest:hover {
+  background-image: url("https://media.giphy.com/media/zf0OLApSzC84M2juyC/giphy.gif");
+}
+
+#gift-img-last:hover {
+  background-image: url("https://media.giphy.com/media/BPJmthQ3YRwD6QqcVD/giphy.gif");
+}
+
+/* .gift-section h2 {
+  margin-top: 40px;
+} */
